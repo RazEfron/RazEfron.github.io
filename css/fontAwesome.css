@@ -633,6 +633,16 @@
   color: black;
   content: "\f209     AngelList";
 }
+
+.fa-twitter2:before {
+  color: black;
+  content: "\f09b";
+}
+
+.fa-facebook2:before {
+  color: black;
+  content: "\f209";
+}
 .fa-github:before {
   color: black;
   content: "\f003  razefron01@gmail.com";
@@ -808,6 +818,12 @@
   color: black;
   content: "\f0e1  LinkedIn";
 }
+
+.fa-linkedin2:before {
+  color: black;
+  content: "\f0e1";
+}
+
 .fa-rotate-left:before,
 .fa-undo:before {
   content: "\f0e2";
