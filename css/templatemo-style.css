@@ -978,4 +978,32 @@ body.lb-disable-scrolling {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
+@media (min-width: 992px){
 
+  .projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .descreption-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    margin-left: 50px;
+  }
+
+  #project-pic-container {
+    min-width: 250px;
+  }
+
+  .project-header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+}
