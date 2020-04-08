@@ -613,7 +613,7 @@
   content: "\f094";
 }
 .fa-phone:before {
-  content: "\f095";
+  content: "\f095   (347) 510 7949";
 }
 .fa-square-o:before {
   content: "\f096";
@@ -625,14 +625,17 @@
   content: "\f098";
 }
 .fa-twitter:before {
-  content: "\f09b";
+  color: black;
+  content: "\f09b        GitHub";
 }
 .fa-facebook-f:before,
 .fa-facebook:before {
-  content: "\f209";
+  color: black;
+  content: "\f209     AngelList";
 }
 .fa-github:before {
-  content: "\f09b";
+  color: black;
+  content: "\f003  razefron01@gmail.com";
 }
 .fa-unlock:before {
   content: "\f09c";
@@ -802,7 +805,8 @@
   content: "\f0e0";
 }
 .fa-linkedin:before {
-  content: "\f0e1";
+  color: black;
+  content: "\f0e1  LinkedIn";
 }
 .fa-rotate-left:before,
 .fa-undo:before {
