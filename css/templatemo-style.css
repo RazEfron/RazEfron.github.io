@@ -472,7 +472,7 @@ video::-webkit-media-controls {
 }
 
 .fourth-content img {
-  width: 100%;
+  /* width: 100%; */
   overflow: hidden;
 }
 
@@ -984,6 +984,10 @@ body.lb-disable-scrolling {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+
+  }
+  .projects-container img {
+    width: 100%;
   }
 
   .descreption-container {
@@ -1006,4 +1010,14 @@ body.lb-disable-scrolling {
     justify-content: space-evenly;
     width: 100%;
   }
+
+  .skills-image {
+    width: 50%;
+    max-height: 123.75px;
+  }
 }
+
+.skills-image {
+    width: 50%;
+    /* max-height: 123.75px; */
+  }
