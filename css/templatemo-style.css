@@ -1064,3 +1064,7 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+#resume-button{
+  color: white;
+}
