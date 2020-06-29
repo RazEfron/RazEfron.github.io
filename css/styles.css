@@ -10136,3 +10136,11 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+#logo-stick {
+    position: fixed;
+    top: 20;
+    /* bottom: 0; */
+    right: 0;
+    height: 100px;
+}
