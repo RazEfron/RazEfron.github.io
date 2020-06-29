@@ -10138,8 +10138,11 @@ section.resume-section .resume-section-content {
 }
 
 #logo-stick {
-    position: fixed;
-    top: 20;
-    right: 0;
-    height: 100px;
+  position: fixed;
+  top: 20;
+  right: 0;
+}
+
+#logo-stick img {
+  height: 100px;
 }
