@@ -10098,12 +10098,16 @@ p.lead {
   border-radius: 100%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
   background-color: #0c4c80;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .dev-icons {
@@ -10145,4 +10149,33 @@ section.resume-section .resume-section-content {
 
 #logo-stick img {
   height: 100px;
+  transition: height 2s;
+}
+
+#logo-stick img:hover {
+  height: 200px;
+}
+
+.gone {
+  display: none;
+}
+
+#typewriter h1 {
+  overflow: hidden; 
+  white-space: nowrap; 
+  /* margin: 0 auto;  */
+  animation: 
+    typing 8s steps(1000, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #1b97d0; }
 }

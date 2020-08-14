@@ -39,4 +39,6 @@
     $("body").scrollspy({
         target: "#sideNav",
     });
+
+        $(".fab fa-linkedin-in").animate();
 })(jQuery); // End of use strict
